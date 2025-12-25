@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-openSans: var(--font-open-sans);
+  --font-montserrat: var(--font-montserrat);
+}
