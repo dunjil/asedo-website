@@ -52,7 +52,7 @@ export default function AsedoWebsiteRedesignLofi() {
   ];
 
   return (
-    <div className="flex flex-col items-start min-w-screen min-h-screen overflow-auto">
+    <div className="flex flex-col min-h-screen bg-white">
       <Navigation currentPath="/" />
 
       {/* Hero Section */}
@@ -64,7 +64,7 @@ export default function AsedoWebsiteRedesignLofi() {
         />
         <div className="relative z-10 w-full px-4 sm:px-6 md:px-10 lg:px-20 py-12 md:py-16 lg:py-24">
           <div className="max-w-4xl">
-            <h1 className="text-[#0A1E3F] font-montserrat text-3xl sm:text-4xl md:text-5xl font-medium leading-tight tracking-tight mb-6 md:mb-8">
+            <h1 className="text-[#0A1E3F] font-montserrat text-4xl md:text-5xl lg:text-6xl font-medium leading-tight tracking-tight mb-6 md:mb-8">
               Powering Sustainable Energy Solutions
             </h1>
             <div className="flex flex-wrap gap-4 justify-center sm:justify-start">
@@ -72,7 +72,7 @@ export default function AsedoWebsiteRedesignLofi() {
                 href="/contact"
                 className="flex py-3 px-6 md:px-8 justify-center items-center gap-3 bg-[#E3A700] hover:bg-[#d09900] transition-colors min-w-[140px]"
               >
-                <span className="text-[#0A1E3F] font-openSans text-sm md:text-base lg:text-lg font-semibold leading-tight tracking-tight whitespace-nowrap">
+                <span className="text-[#0A1E3F] font-openSans text-sm md:text-base font-semibold leading-tight tracking-tight whitespace-nowrap">
                   CONTACT US
                 </span>
                 <svg
@@ -96,7 +96,7 @@ export default function AsedoWebsiteRedesignLofi() {
                 href="/about-us"
                 className="flex py-3 px-6 md:px-8 justify-center items-center gap-3 border border-[#A3B9D0] bg-[#AEC3D8] hover:bg-[#9eb3c8] transition-colors min-w-[140px]"
               >
-                <span className="text-[#FFF] font-openSans text-sm md:text-base lg:text-lg font-semibold leading-tight tracking-tight whitespace-nowrap">
+                <span className="text-[#FFF] font-openSans text-sm md:text-base font-semibold leading-tight tracking-tight whitespace-nowrap">
                   LEARN MORE
                 </span>
                 <svg
@@ -123,7 +123,7 @@ export default function AsedoWebsiteRedesignLofi() {
 
       {/* Industries We Serve Section */}
       <div className="bg-[#FFF] w-full py-12 md:py-16 lg:py-20 px-4 sm:px-6 md:px-10 lg:px-20">
-        <h2 className="text-[#0A1E3F] font-montserrat text-2xl md:text-4xl lg:text-5xl font-medium leading-tight tracking-tight mb-8 md:mb-12">
+        <h2 className="text-[#0A1E3F] font-montserrat text-2xl md:text-3xl lg:text-4xl font-medium leading-tight tracking-tight mb-8 md:mb-12">
           Industries We Serve
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 lg:gap-10">
@@ -139,7 +139,7 @@ export default function AsedoWebsiteRedesignLofi() {
                   alt={industry.title}
                 />
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
-                  <h3 className="text-[#FFF] font-montserrat text-lg md:text-xl lg:text-2xl font-normal leading-tight tracking-tight">
+                  <h3 className="text-[#FFF] font-montserrat text-lg md:text-xl font-normal leading-tight tracking-tight">
                     {industry.title}
                   </h3>
                 </div>
@@ -152,12 +152,12 @@ export default function AsedoWebsiteRedesignLofi() {
       {/* Our Promise Section */}
       <div className="flex flex-col md:flex-row w-full">
         <div className="bg-[#F5F5F5] flex items-center justify-center py-12 md:py-16 px-6 md:px-10 lg:px-16 md:w-1/3">
-          <h2 className="text-[#00A89D] font-montserrat text-2xl md:text-4xl font-normal leading-tight tracking-tight text-center md:text-left">
+          <h2 className="text-[#00A89D] font-montserrat text-2xl md:text-3xl font-normal leading-tight tracking-tight text-center md:text-left">
             OUR PROMISE
           </h2>
         </div>
         <div className="bg-[#FFF] flex items-center justify-center py-12 md:py-16 px-6 md:px-10 lg:px-16 md:w-2/3">
-          <p className="text-[#00A89D] font-montserrat text-xl md:text-2xl lg:text-3xl font-normal leading-tight tracking-tight max-w-4xl">
+          <p className="text-[#00A89D] font-montserrat text-lg md:text-xl font-normal leading-tight tracking-tight max-w-4xl">
             Delivering reliable, innovative, and integrated energy solutions
             with integrity, safety, and operational excellence.
           </p>
@@ -174,7 +174,7 @@ export default function AsedoWebsiteRedesignLofi() {
         <div className="absolute inset-0 bg-gradient-to-r from-cyan-100/40 to-white/20"></div>
         <div className="relative z-10 w-full px-4 sm:px-6 md:px-10 lg:px-20 py-12 md:py-16">
           <div className="bg-[rgba(137,215,226,0.40)] backdrop-blur-sm p-8 md:p-10 max-w-3xl">
-            <h2 className="text-[#FFF] font-montserrat text-2xl md:text-3xl lg:text-4xl font-medium leading-tight tracking-tight mb-8">
+            <h2 className="text-[#FFF] font-montserrat text-2xl md:text-3xl font-medium leading-tight tracking-tight mb-8">
               Discover the Leaders Who Are Transforming the Clean Energy
               Ecosystem
             </h2>
@@ -182,7 +182,7 @@ export default function AsedoWebsiteRedesignLofi() {
               href="/about-us#team"
               className="inline-flex py-3 px-6 justify-center items-center gap-4 bg-[#D5E9EA] hover:bg-[#c5d9da] transition-colors"
             >
-              <span className="text-[#00A89D] font-openSans text-base md:text-lg font-normal leading-tight tracking-tight">
+              <span className="text-[#00A89D] font-openSans text-sm md:text-base font-normal leading-tight tracking-tight">
                 See Team
               </span>
               <svg
@@ -217,7 +217,7 @@ export default function AsedoWebsiteRedesignLofi() {
               </p>
               <div className="bg-[#0A1E3F] w-1.5 h-1.5 rounded-full"></div>
             </div>
-            <h2 className="text-[#0A1E3F] font-montserrat text-2xl md:text-3xl lg:text-4xl font-normal leading-tight tracking-tight">
+            <h2 className="text-[#0A1E3F] font-montserrat text-2xl md:text-3xl font-normal leading-tight tracking-tight">
               We are dedicated to making clean energy accessible, affordable,
               and effective.
             </h2>
@@ -225,7 +225,7 @@ export default function AsedoWebsiteRedesignLofi() {
               href="/about-us"
               className="inline-flex py-4 px-8 justify-center items-center gap-4 bg-[#00A89D] hover:bg-[#009890] transition-colors w-fit mt-4"
             >
-              <span className="text-[#FFF] font-openSans text-base md:text-lg font-semibold leading-tight tracking-tight">
+              <span className="text-[#FFF] font-openSans text-sm md:text-base font-semibold leading-tight tracking-tight">
                 About Us
               </span>
               <svg
@@ -256,7 +256,7 @@ export default function AsedoWebsiteRedesignLofi() {
               <div className="absolute inset-0 bg-gradient-to-r from-cyan-100/10 to-white/50"></div>
             </div>
             <div className="bg-[#00A89D] p-6 md:p-8 mt-0">
-              <p className="text-[#FFF] font-openSans text-base md:text-lg lg:text-xl font-normal leading-tight tracking-tight mb-6">
+              <p className="text-[#FFF] font-openSans text-base md:text-lg font-normal leading-tight tracking-tight mb-6">
                 ASEDO was founded with a vision to drive sustainable energy
                 solutions that empower individuals, businesses, and communities.
               </p>
@@ -264,7 +264,7 @@ export default function AsedoWebsiteRedesignLofi() {
                 href="/about-us"
                 className="inline-flex items-center gap-4 text-[#FFF] opacity-80 hover:opacity-100 transition-opacity"
               >
-                <span className="font-openSans text-base md:text-lg font-normal leading-tight tracking-tight">
+                <span className="font-openSans text-sm md:text-base font-normal leading-tight tracking-tight">
                   Learn more
                 </span>
                 <svg
@@ -299,7 +299,7 @@ export default function AsedoWebsiteRedesignLofi() {
             </p>
             <div className="bg-[#0A1E3F] w-1.5 h-1.5 rounded-full"></div>
           </div>
-          <h2 className="text-[#0A1E3F] font-montserrat text-2xl md:text-3xl lg:text-4xl font-normal leading-tight tracking-tight max-w-5xl">
+          <h2 className="text-[#0A1E3F] font-montserrat text-2xl md:text-3xl font-normal leading-tight tracking-tight max-w-5xl">
             We deliver safe, reliable, and sustainable energy across Africa and
             beyond.
           </h2>
@@ -326,7 +326,7 @@ export default function AsedoWebsiteRedesignLofi() {
                 <h3 className="text-[#0A1E3F] font-montserrat text-lg md:text-xl font-normal leading-tight tracking-tight">
                   {value.title}
                 </h3>
-                <p className="text-[#4D5767] font-montserrat text-base md:text-lg font-normal leading-tight tracking-tight">
+                <p className="text-[#4D5767] font-montserrat text-base font-normal leading-tight tracking-tight">
                   {value.description}
                 </p>
               </div>

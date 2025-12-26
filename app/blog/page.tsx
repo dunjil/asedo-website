@@ -48,7 +48,7 @@ export default function Blog() {
   ];
 
   return (
-    <div className="flex flex-col items-start min-w-screen min-h-screen overflow-auto">
+    <div className="flex flex-col min-h-screen bg-white">
       <Navigation currentPath="/blog" />
 
       {/* Hero Section */}
@@ -70,10 +70,10 @@ export default function Blog() {
         </div>
 
         <div className="relative z-10 w-full px-4 sm:px-6 md:px-10 lg:px-20 py-12 md:py-16 lg:py-20 text-center">
-          <h1 className="text-[#FFF] font-montserrat text-3xl sm:text-4xl md:text-5xl font-medium leading-tight tracking-tight mb-6">
+          <h1 className="text-[#FFF] font-montserrat text-4xl md:text-5xl lg:text-6xl font-medium leading-tight tracking-tight mb-6">
             Insights & Updates
           </h1>
-          <p className="text-[#FFF] font-openSans text-base md:text-lg lg:text-xl leading-relaxed max-w-4xl mx-auto">
+          <p className="text-[#FFF] font-openSans text-base md:text-lg leading-relaxed max-w-4xl mx-auto">
             Ideas, insights, and the latest updates to keep you informed,
             inspired, and ahead in the world of green energy.
           </p>
@@ -86,7 +86,7 @@ export default function Blog() {
           {/* Section Header */}
           <div className="flex items-center gap-4 mb-8 md:mb-12">
             <div className="bg-[#0A1E3F] w-1.5 h-1.5 rounded-full"></div>
-            <p className="text-[#00A89D] font-montserrat text-lg md:text-xl font-medium leading-tight tracking-tight uppercase">
+            <p className="text-[#00A89D] font-montserrat text-base md:text-lg font-medium leading-tight tracking-tight uppercase">
               FEATURED BLOG
             </p>
             <div className="bg-[#0A1E3F] w-1.5 h-1.5 rounded-full"></div>
@@ -115,16 +115,16 @@ export default function Blog() {
                   </span>
                 </div>
 
-                <h2 className="text-[#000206] font-openSans text-xl md:text-2xl font-semibold leading-tight tracking-tight line-clamp-2">
+                <h2 className="text-[#000206] font-openSans text-lg md:text-xl font-semibold leading-tight tracking-tight line-clamp-2">
                   {featuredPost.title}
                 </h2>
 
-                <p className="text-[#000206]/50 font-openSans text-sm md:text-base leading-relaxed line-clamp-3">
+                <p className="text-[#000206]/50 font-openSans text-base leading-relaxed line-clamp-3">
                   {featuredPost.excerpt}
                 </p>
 
                 <div className="flex items-center gap-4 text-[#00A89D] border-b-2 border-[#00A89D] w-fit pb-2 group-hover:gap-6 transition-all">
-                  <span className="font-openSans text-base md:text-lg">
+                  <span className="font-openSans text-sm md:text-base">
                     Read more
                   </span>
                   <svg
@@ -162,7 +162,7 @@ export default function Blog() {
               </p>
               <div className="bg-[#0A1E3F] w-1.5 h-1.5 rounded-full"></div>
             </div>
-            <h2 className="text-[#0A1E3F] font-montserrat text-2xl md:text-4xl lg:text-5xl font-medium leading-tight tracking-tight">
+            <h2 className="text-[#0A1E3F] font-montserrat text-2xl md:text-3xl lg:text-4xl font-medium leading-tight tracking-tight">
               Latest blog post
             </h2>
           </div>
@@ -199,7 +199,7 @@ export default function Blog() {
                     {post.title}
                   </h3>
 
-                  <p className="text-[#000206]/70 font-openSans text-sm md:text-base leading-relaxed line-clamp-3">
+                  <p className="text-[#000206]/70 font-openSans text-base leading-relaxed line-clamp-3">
                     {post.excerpt}
                   </p>
 

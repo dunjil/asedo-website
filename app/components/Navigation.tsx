@@ -18,7 +18,7 @@ export default function Navigation({ currentPath }: NavigationProps) {
   ];
 
   return (
-    <div className="flex py-4 md:py-6 px-4 md:px-10 lg:px-20 justify-between items-center border-b-[0.4px] border-b-[#000] bg-[#FFF] w-full">
+    <div className="sticky top-0 z-50 flex py-4 md:py-6 px-4 md:px-10 lg:px-20 justify-between items-center border-b-[0.4px] border-b-[#000] bg-[#FFF] w-full">
       <Link href="/">
         <img
           src="/logo.png"
@@ -28,28 +28,28 @@ export default function Navigation({ currentPath }: NavigationProps) {
       </Link>
 
       {/* Desktop Navigation */}
-      <div className="hidden lg:flex items-center gap-2 xl:gap-4 w-fit">
+      <div className="hidden lg:flex items-center gap-3 w-fit">
         {navItems.map((item) => (
           <Link
             key={item.href}
             href={item.href}
-            className="flex p-2 xl:p-2.5 justify-center items-center gap-2.5 w-fit h-[47px]"
+            className="flex flex-col px-3 py-2 justify-center items-center gap-1 h-[47px] relative"
           >
             <p
-              className={`font-openSans text-sm xl:text-md leading-[1.25em] w-fit whitespace-nowrap ${currentPath === item.href
-                  ? "text-[#000206] font-semibold"
-                  : "text-[#000206] font-normal"
-                }`}
+              className="font-openSans text-sm leading-[1.25em] whitespace-nowrap font-medium text-[#000206]"
             >
               {item.label}
             </p>
+            {currentPath === item.href && (
+              <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-[#00A89D]"></div>
+            )}
           </Link>
         ))}
         <Link
           href="/contact"
-          className="flex p-2 xl:p-2.5 justify-center items-center gap-2.5 bg-[#E3A700] w-fit px-4 xl:px-6 h-[47px]"
+          className={`flex px-6 py-2 justify-center items-center h-[47px] transition-colors ml-2 ${currentPath === "/contact" ? "bg-[#00A89D]" : "bg-[#E3A700] hover:bg-[#d09900]"}`}
         >
-          <p className="text-[#0A1E3F] font-openSans text-sm xl:text-md font-normal leading-[1.25em] w-fit whitespace-nowrap">
+          <p className={`font-openSans text-sm font-medium leading-[1.25em] whitespace-nowrap ${currentPath === "/contact" ? "text-[#FFF]" : "text-[#0A1E3F]"}`}>
             CONTACT US
           </p>
         </Link>
@@ -87,7 +87,7 @@ export default function Navigation({ currentPath }: NavigationProps) {
 
       {/* Mobile Navigation Menu */}
       {mobileMenuOpen && (
-        <div className="absolute top-[59px] left-0 right-0 bg-[#FFF] border-b border-[#000] lg:hidden z-50 shadow-lg">
+        <div className="fixed top-[59px] md:top-[75px] left-0 right-0 bg-[#FFF] border-b border-[#000] lg:hidden z-40 shadow-lg">
           <div className="flex flex-col py-4">
             {navItems.map((item) => (
               <Link
@@ -97,7 +97,7 @@ export default function Navigation({ currentPath }: NavigationProps) {
                 onClick={() => setMobileMenuOpen(false)}
               >
                 <p
-                  className={`font-openSans text-md leading-[1.25em] ${currentPath === item.href
+                  className={`font-openSans text-sm leading-[1.25em] ${currentPath === item.href
                       ? "text-[#000206] font-semibold"
                       : "text-[#000206] font-normal"
                     }`}
@@ -111,7 +111,7 @@ export default function Navigation({ currentPath }: NavigationProps) {
               className="mx-4 mt-2 flex p-2.5 justify-center items-center bg-[#E3A700]"
               onClick={() => setMobileMenuOpen(false)}
             >
-              <p className="text-[#0A1E3F] font-openSans text-md font-normal leading-[1.25em]">
+              <p className="text-[#0A1E3F] font-openSans text-sm font-normal leading-[1.25em]">
                 CONTACT US
               </p>
             </Link>

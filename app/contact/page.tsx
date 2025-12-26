@@ -27,16 +27,16 @@ export default function ContactPage() {
   };
 
   return (
-    <div className="flex flex-col items-start min-w-screen min-h-screen overflow-auto">
+    <div className="flex flex-col min-h-screen bg-white">
       <Navigation currentPath="/contact" />
 
       {/* Hero Section */}
       <div className="w-full bg-[#0A1E3F] py-12 md:py-16 px-4 sm:px-6 md:px-10 lg:px-20">
         <div className="max-w-7xl mx-auto">
-          <h1 className="text-[#FFF] font-montserrat text-3xl md:text-4xl lg:text-5xl font-medium leading-tight tracking-tight mb-6 md:mb-8">
+          <h1 className="text-[#FFF] font-montserrat text-4xl md:text-5xl lg:text-6xl font-medium leading-tight tracking-tight mb-6 md:mb-8">
             Get in Touch
           </h1>
-          <p className="text-[#F5F5F5] font-openSans text-base md:text-lg lg:text-xl leading-relaxed max-w-3xl">
+          <p className="text-[#F5F5F5] font-openSans text-base md:text-lg leading-relaxed max-w-3xl">
             At ASEDO Energy Group, we drive Africa's oil, gas, and power
             industries through world-class infrastructure and innovative
             solutions.
@@ -50,7 +50,7 @@ export default function ContactPage() {
               </p>
               <div className="bg-[#0A1E3F] w-1.5 h-1.5 rounded-full"></div>
             </div>
-            <h2 className="text-[#FFF] font-montserrat text-2xl md:text-3xl lg:text-4xl font-medium leading-tight tracking-tight">
+            <h2 className="text-[#FFF] font-montserrat text-2xl md:text-3xl font-medium leading-tight tracking-tight">
               Send us a Message
             </h2>
           </div>
@@ -76,7 +76,7 @@ export default function ContactPage() {
               <div className="flex flex-col gap-4">
                 <label
                   htmlFor="firstName"
-                  className="text-[#000] font-openSans text-base md:text-lg font-normal leading-tight tracking-tight"
+                  className="text-[#000] font-openSans text-sm md:text-base font-normal leading-tight tracking-tight"
                 >
                   First Name
                 </label>
@@ -88,7 +88,7 @@ export default function ContactPage() {
                   onChange={handleChange}
                   placeholder="John"
                   required
-                  className="flex py-3 px-4 items-center rounded-sm border border-[rgba(10,30,63,0.20)] w-full text-[#2F2F2F] font-openSans text-base md:text-lg font-normal leading-tight tracking-tight focus:outline-none focus:border-[#00A89D] transition-colors"
+                  className="flex py-3 px-4 items-center rounded-sm border border-[rgba(10,30,63,0.20)] w-full text-[#2F2F2F] font-openSans text-base font-normal leading-tight tracking-tight focus:outline-none focus:border-[#00A89D] transition-colors"
                 />
               </div>
 
@@ -96,7 +96,7 @@ export default function ContactPage() {
               <div className="flex flex-col gap-4">
                 <label
                   htmlFor="lastName"
-                  className="text-[#000] font-openSans text-base md:text-lg font-normal leading-tight tracking-tight"
+                  className="text-[#000] font-openSans text-sm md:text-base font-normal leading-tight tracking-tight"
                 >
                   Last Name
                 </label>
@@ -108,7 +108,7 @@ export default function ContactPage() {
                   onChange={handleChange}
                   placeholder="Doe"
                   required
-                  className="flex py-3 px-4 items-center rounded-sm border border-[rgba(10,30,63,0.20)] w-full text-[#2F2F2F] font-openSans text-base md:text-lg font-normal leading-tight tracking-tight focus:outline-none focus:border-[#00A89D] transition-colors"
+                  className="flex py-3 px-4 items-center rounded-sm border border-[rgba(10,30,63,0.20)] w-full text-[#2F2F2F] font-openSans text-base font-normal leading-tight tracking-tight focus:outline-none focus:border-[#00A89D] transition-colors"
                 />
               </div>
 
@@ -116,7 +116,7 @@ export default function ContactPage() {
               <div className="flex flex-col gap-4">
                 <label
                   htmlFor="email"
-                  className="text-[#000] font-openSans text-base md:text-lg font-normal leading-tight tracking-tight"
+                  className="text-[#000] font-openSans text-sm md:text-base font-normal leading-tight tracking-tight"
                 >
                   Email Address
                 </label>
@@ -128,7 +128,7 @@ export default function ContactPage() {
                   onChange={handleChange}
                   placeholder="example@gmail.com"
                   required
-                  className="flex py-3 px-4 items-center rounded-sm border border-[rgba(10,30,63,0.20)] w-full text-[#2F2F2F] font-openSans text-base md:text-lg font-normal leading-tight tracking-tight focus:outline-none focus:border-[#00A89D] transition-colors"
+                  className="flex py-3 px-4 items-center rounded-sm border border-[rgba(10,30,63,0.20)] w-full text-[#2F2F2F] font-openSans text-base font-normal leading-tight tracking-tight focus:outline-none focus:border-[#00A89D] transition-colors"
                 />
               </div>
 
@@ -136,7 +136,7 @@ export default function ContactPage() {
               <div className="flex flex-col gap-4">
                 <label
                   htmlFor="message"
-                  className="text-[#000] font-openSans text-base md:text-lg font-normal leading-tight tracking-tight"
+                  className="text-[#000] font-openSans text-sm md:text-base font-normal leading-tight tracking-tight"
                 >
                   Message
                 </label>
@@ -148,7 +148,7 @@ export default function ContactPage() {
                   placeholder="Type message"
                   required
                   rows={6}
-                  className="flex py-3 px-4 items-start rounded-sm border border-[rgba(10,30,63,0.20)] w-full text-[#2F2F2F] font-openSans text-base md:text-lg font-normal leading-tight tracking-tight focus:outline-none focus:border-[#00A89D] transition-colors resize-none"
+                  className="flex py-3 px-4 items-start rounded-sm border border-[rgba(10,30,63,0.20)] w-full text-[#2F2F2F] font-openSans text-base font-normal leading-tight tracking-tight focus:outline-none focus:border-[#00A89D] transition-colors resize-none"
                 ></textarea>
               </div>
 
@@ -157,7 +157,7 @@ export default function ContactPage() {
                 type="submit"
                 className="flex py-4 px-8 justify-center items-center gap-2.5 rounded-sm bg-[#00A89D] hover:bg-[#009890] transition-colors w-full md:w-auto md:min-w-[200px]"
               >
-                <span className="text-[#FFF] font-openSans text-lg md:text-xl font-normal leading-tight tracking-tight">
+                <span className="text-[#FFF] font-openSans text-sm md:text-base font-normal leading-tight tracking-tight">
                   SEND
                 </span>
               </button>
@@ -193,7 +193,7 @@ export default function ContactPage() {
                   <h3 className="text-[#000] font-montserrat text-lg md:text-xl font-medium leading-tight tracking-tight mb-4">
                     Office Address
                   </h3>
-                  <p className="text-[#000206] font-openSans text-base md:text-lg font-normal leading-relaxed tracking-tight">
+                  <p className="text-[#000206] font-openSans text-base font-normal leading-relaxed tracking-tight">
                     Plot 281 Trans-Amadi Industrial Layout Rd, Trans Amadi, Port
                     Harcourt, Rivers
                   </p>
@@ -233,7 +233,7 @@ export default function ContactPage() {
                   </h3>
                   <a
                     href="mailto:info@asedoenergy.com"
-                    className="text-[#000206] font-openSans text-base md:text-lg font-normal leading-relaxed tracking-tight hover:text-[#00A89D] transition-colors"
+                    className="text-[#000206] font-openSans text-base font-normal leading-relaxed tracking-tight hover:text-[#00A89D] transition-colors"
                   >
                     info@asedoenergy.com
                   </a>
@@ -266,7 +266,7 @@ export default function ContactPage() {
                   </h3>
                   <a
                     href="tel:+2348012345678"
-                    className="text-[#000206] font-openSans text-base md:text-lg font-normal leading-relaxed tracking-tight hover:text-[#00A89D] transition-colors"
+                    className="text-[#000206] font-openSans text-base font-normal leading-relaxed tracking-tight hover:text-[#00A89D] transition-colors"
                   >
                     +234 801 234 5678
                   </a>

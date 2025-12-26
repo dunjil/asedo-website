@@ -46,7 +46,7 @@ export default function BlogDetails() {
         </div>
 
         <div className="relative z-10 max-w-7xl mx-auto px-4 py-20 text-center">
-          <h1 className="text-white font-montserrat text-3xl md:text-5xl font-medium leading-tight tracking-tight">
+          <h1 className="text-white font-montserrat text-4xl md:text-5xl lg:text-6xl font-medium leading-tight tracking-tight">
             {blogPost.title}
           </h1>
         </div>
@@ -77,16 +77,16 @@ export default function BlogDetails() {
 
           {/* Main Text Content */}
           <div className="flex flex-col gap-12 max-w-5xl mx-auto w-full pt-10">
-            <p className="text-[#000206] font-montserrat text-xl md:text-2xl font-normal leading-normal text-justify">
+            <p className="text-[#000206] font-montserrat text-base md:text-lg font-normal leading-normal text-justify">
               {blogPost.content}
             </p>
 
             {/* Highlights */}
             <div className="flex flex-col gap-8">
-              <h2 className="text-[#0A1E3F] font-montserrat text-2xl md:text-3xl font-semibold tracking-tight">
+              <h2 className="text-[#0A1E3F] font-montserrat text-xl md:text-2xl font-semibold tracking-tight">
                 Project Highlights:
               </h2>
-              <div className="text-[#000206] font-montserrat text-base md:text-lg font-normal leading-normal space-y-4">
+              <div className="text-[#000206] font-montserrat text-base font-normal leading-normal space-y-4">
                 {blogPost.highlights.map((item, i) => (
                   <p key={i} className="text-justify">{item}</p>
                 ))}
@@ -95,27 +95,27 @@ export default function BlogDetails() {
 
             {/* Additional Context */}
             <div className="bg-[#F9F9F9] p-8 md:p-12 border-l-4 border-[#00A89D]">
-              <p className="text-[#000206] font-montserrat text-base md:text-xl font-normal leading-normal">
-                This cement manufacturing facility strategically located in Kebbi state is part of Asedo’s wider commitment to value chain integration and national infrastructure development. Once completed, the facility will serve as a regional anchor for housing, roads, and industrial construction, while driving job creation and upstream mineral utilization across the Northwest zone.
+              <p className="text-[#000206] font-montserrat text-base md:text-lg font-normal leading-normal">
+                This cement manufacturing facility strategically located in Kebbi state is part of Asedo's wider commitment to value chain integration and national infrastructure development. Once completed, the facility will serve as a regional anchor for housing, roads, and industrial construction, while driving job creation and upstream mineral utilization across the Northwest zone.
               </p>
             </div>
 
             <div className="flex items-center gap-4 pl-6 border-l-4 border-[#0A1E3F]">
-              <p className="text-[#00A89D] font-montserrat text-2xl md:text-3xl font-normal">
+              <p className="text-[#00A89D] font-montserrat text-xl md:text-2xl font-normal">
                 Partnership-Driven, Regionally Integrated
               </p>
             </div>
 
-            <p className="text-[#000206] font-montserrat text-lg md:text-xl font-normal leading-normal text-justify">
-              The project is a collaboration between Asedo Energy and a mix of local and international partners, combining industrial expertise, financial strength, and regional access. It will be powered by a dedicated embedded energy solution from Asedo’s nearby infrastructure hub, ensuring stable off-grid power and sustainability compliance from day one.
+            <p className="text-[#000206] font-montserrat text-base md:text-lg font-normal leading-normal text-justify">
+              The project is a collaboration between Asedo Energy and a mix of local and international partners, combining industrial expertise, financial strength, and regional access. It will be powered by a dedicated embedded energy solution from Asedo's nearby infrastructure hub, ensuring stable off-grid power and sustainability compliance from day one.
             </p>
 
             {/* Objectives */}
             <div className="flex flex-col gap-8">
-              <h2 className="text-[#0A1E3F] font-montserrat text-2xl md:text-3xl font-semibold tracking-tight">
+              <h2 className="text-[#0A1E3F] font-montserrat text-xl md:text-2xl font-semibold tracking-tight">
                 Strategic Objectives:
               </h2>
-              <ul className="text-[#000206] font-montserrat text-base md:text-lg font-normal leading-normal space-y-4 list-disc pl-10">
+              <ul className="text-[#000206] font-montserrat text-base font-normal leading-normal space-y-4 list-disc pl-10">
                 {blogPost.objectives.map((item, i) => (
                   <li key={i} className="pl-4">{item}</li>
                 ))}
@@ -123,7 +123,7 @@ export default function BlogDetails() {
             </div>
 
             <div className="bg-white p-8 border border-gray-200 shadow-sm mt-8">
-              <p className="text-[#000206] font-montserrat text-lg md:text-xl font-normal leading-normal text-center">
+              <p className="text-[#000206] font-montserrat text-base md:text-lg font-normal leading-normal text-center">
                 Asedo Energy remains fully committed to working closely with the Kebbi State Government and all regulatory agencies to ensure seamless execution of this high-impact industrial project.
               </p>
             </div>

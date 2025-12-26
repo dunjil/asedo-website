@@ -18,8 +18,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${openSans.variable} ${montserrat.variable}`}>
-      <body>{children}</body>
+    <html lang="en" className={`${openSans.variable} ${montserrat.variable}`} style={{ scrollbarGutter: 'stable' }}>
+      <body style={{ scrollbarGutter: 'stable' }}>{children}</body>
     </html>
   );
 }

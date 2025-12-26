@@ -118,7 +118,7 @@ export default function ProjectsPage() {
             Projects
           </h1>
           <div className="max-w-4xl mx-auto">
-            <p className="text-[#0A1E3F] md:text-white lg:text-[#0A1E3F] font-openSans text-lg md:text-xl lg:text-2xl font-normal leading-relaxed drop-shadow-sm md:drop-shadow-none">
+            <p className="text-[#0A1E3F] md:text-white lg:text-[#0A1E3F] font-openSans text-base md:text-lg font-normal leading-relaxed drop-shadow-sm md:drop-shadow-none">
               With execution discipline and silent strategic partnerships, our
               projects are designed to deliver long-term value and global
               competitiveness.
@@ -138,11 +138,11 @@ export default function ProjectsPage() {
             <div className="bg-[#0A1E3F] w-1.5 h-1.5 rounded-full"></div>
           </div>
 
-          <h2 className="text-[#0A1E3F] font-montserrat text-3xl md:text-4xl lg:text-5xl font-medium leading-tight">
-            See How We’re Powering Change Around The World
+          <h2 className="text-[#0A1E3F] font-montserrat text-2xl md:text-3xl lg:text-4xl font-medium leading-tight">
+            See How We're Powering Change Around The World
           </h2>
 
-          <p className="text-[#0A1E3F] font-openSans text-lg md:text-xl leading-relaxed opacity-90 max-w-4xl">
+          <p className="text-[#0A1E3F] font-openSans text-base md:text-lg leading-relaxed opacity-90 max-w-4xl">
             Asedo Energy Group is executing a bold, continent-spanning vision
             integrating energy infrastructure, digital systems, logistics, and
             industrial manufacturing into a unified growth platform.
@@ -169,10 +169,10 @@ export default function ProjectsPage() {
 
                 <div className="p-6 md:p-8 lg:p-10 flex flex-col gap-6 md:gap-8 flex-grow">
                   <div className="flex flex-col gap-4">
-                    <h3 className="text-[#000206] font-montserrat text-2xl md:text-3xl font-semibold leading-tight">
+                    <h3 className="text-[#000206] font-montserrat text-xl md:text-2xl font-semibold leading-tight">
                       {project.title}
                     </h3>
-                    <p className="text-[#00A89D] font-openSans text-base md:text-lg font-medium leading-relaxed">
+                    <p className="text-[#00A89D] font-openSans text-sm md:text-base font-medium leading-relaxed">
                       {project.status}
                     </p>
                   </div>
@@ -196,7 +196,7 @@ export default function ProjectsPage() {
                             strokeLinejoin="round"
                           />
                         </svg>
-                        <p className="text-[#000] font-openSans text-base md:text-lg font-normal leading-relaxed">
+                        <p className="text-[#000] font-openSans text-base font-normal leading-relaxed">
                           {feature.text}
                         </p>
                       </div>

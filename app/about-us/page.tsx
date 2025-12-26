@@ -33,8 +33,8 @@ export default function AboutUs() {
         />
         <div className="absolute inset-0 bg-gradient-to-b from-[rgba(3,35,48,0.35)] to-[rgba(243,251,255,0.70)]"></div>
         <div className="absolute inset-0 flex items-center justify-center">
-          <h1 className="text-white font-montserrat text-3xl md:text-5xl font-medium text-center max-w-4xl px-4 drop-shadow-lg leading-tight">
-            We are Africa’s fastest-growing Integrated energy company
+          <h1 className="text-white font-montserrat text-4xl md:text-5xl lg:text-6xl font-medium text-center max-w-4xl px-4 drop-shadow-lg leading-tight">
+            We are Africa's fastest-growing Integrated energy company
           </h1>
         </div>
       </div>
@@ -47,8 +47,8 @@ export default function AboutUs() {
             <p className="text-[#00A89D] font-openSans text-xs md:text-sm uppercase font-semibold">ABOUT US</p>
             <div className="w-1.5 h-1.5 bg-[#0A1E3F]"></div>
           </div>
-          <p className="text-[#0A1E3F] font-montserrat text-lg md:text-xl lg:text-2xl font-normal leading-relaxed text-justify md:text-left">
-            At ASEDO Energy Group, we drive Africa’s oil, gas, and power industries through world-class infrastructure and innovative solutions. From upstream exploration to refining, gas processing, petroleum logistics, and retail, we are building the future of sustainable energy across Nigeria and global markets.
+          <p className="text-[#0A1E3F] font-montserrat text-base md:text-lg font-normal leading-relaxed text-justify md:text-left">
+            At ASEDO Energy Group, we drive Africa's oil, gas, and power industries through world-class infrastructure and innovative solutions. From upstream exploration to refining, gas processing, petroleum logistics, and retail, we are building the future of sustainable energy across Nigeria and global markets.
           </p>
         </div>
       </div>
@@ -59,7 +59,7 @@ export default function AboutUs() {
           {stats.map((stat, index) => (
             <div key={index} className="flex flex-col gap-2">
               <p className="text-[#00A89D] font-montserrat text-4xl md:text-5xl font-semibold">{stat.value}</p>
-              <p className="text-[#00A89D] font-openSans text-sm md:text-base">{stat.label}</p>
+              <p className="text-[#00A89D] font-openSans text-xs md:text-sm">{stat.label}</p>
             </div>
           ))}
         </div>
@@ -74,11 +74,11 @@ export default function AboutUs() {
             <div className="w-1.5 h-1.5 bg-[#0A1E3F]"></div>
           </div>
           <div className="flex flex-col md:flex-row justify-between items-start gap-8">
-            <h2 className="text-[#0A1E3F] font-montserrat text-2xl md:text-4xl font-normal max-w-2xl leading-tight">
-              Building Africa’s Energy Future Together
+            <h2 className="text-[#0A1E3F] font-montserrat text-2xl md:text-3xl font-normal max-w-2xl leading-tight">
+              Building Africa's Energy Future Together
             </h2>
-            <p className="text-[#0A1E3F] font-openSans text-base md:text-lg font-normal opacity-90 max-w-2xl text-justify md:text-left">
-              At ASEDO Energy Group, we are proud to be one of Africa’s fastest-growing integrated energy companies.
+            <p className="text-[#0A1E3F] font-openSans text-base font-normal opacity-90 max-w-2xl text-justify md:text-left">
+              At ASEDO Energy Group, we are proud to be one of Africa's fastest-growing integrated energy companies.
             </p>
           </div>
         </div>
@@ -131,15 +131,15 @@ export default function AboutUs() {
       {/* Mission & Vision Split Section */}
       <div className="grid grid-cols-1 md:grid-cols-2 text-white">
         <div className="bg-[#0A1E3F] py-20 px-8 flex flex-col items-center justify-center text-center gap-8 min-h-[400px]">
-          <h2 className="font-montserrat text-3xl font-medium tracking-tight">OUR MISSION</h2>
-          <p className="font-montserrat text-lg md:text-xl font-normal max-w-lg leading-relaxed">
-            To drive Africa’s energy independence by building, owning, and operating the full spectrum of oil and gas infrastructure, from exploration and refining to power generation and nationwide distribution.
+          <h2 className="font-montserrat text-2xl md:text-3xl font-medium tracking-tight">OUR MISSION</h2>
+          <p className="font-montserrat text-base md:text-lg font-normal max-w-lg leading-relaxed">
+            To drive Africa's energy independence by building, owning, and operating the full spectrum of oil and gas infrastructure, from exploration and refining to power generation and nationwide distribution.
           </p>
         </div>
         <div className="bg-[#00A89D] py-20 px-8 flex flex-col items-center justify-center text-center gap-8 min-h-[400px]">
-          <h2 className="font-montserrat text-3xl font-medium tracking-tight">OUR VISION</h2>
-          <p className="font-montserrat text-lg md:text-xl font-normal max-w-lg leading-relaxed">
-            To redefine how energy is produced, refined, and delivered across Africa, building a fully indigenous, self-sufficient energy ecosystem that fuels the continent’s growth and transformation.
+          <h2 className="font-montserrat text-2xl md:text-3xl font-medium tracking-tight">OUR VISION</h2>
+          <p className="font-montserrat text-base md:text-lg font-normal max-w-lg leading-relaxed">
+            To redefine how energy is produced, refined, and delivered across Africa, building a fully indigenous, self-sufficient energy ecosystem that fuels the continent's growth and transformation.
           </p>
         </div>
       </div>
@@ -155,13 +155,13 @@ export default function AboutUs() {
         </div>
         <div className="w-full md:w-2/3 py-16 px-4 md:px-20 flex flex-col justify-center gap-10">
           <div>
-            <h2 className="text-[#000206] font-montserrat text-2xl md:text-4xl font-medium mb-4">OUR HISTORY</h2>
-            <p className="text-[#00A89D] font-montserrat text-xl md:text-2xl font-normal">From Foundations to Energy Leadership.</p>
+            <h2 className="text-[#000206] font-montserrat text-2xl md:text-3xl font-medium mb-4">OUR HISTORY</h2>
+            <p className="text-[#00A89D] font-montserrat text-lg md:text-xl font-normal">From Foundations to Energy Leadership.</p>
           </div>
           <div className="flex flex-col gap-6 max-w-3xl">
-            <p className="text-[#000] font-openSans text-base lg:text-lg leading-relaxed">ASEDO Energy Group began over a decade ago as a construction and logistics firm, with its sister company pioneering our entry into oil and gas.</p>
-            <p className="text-[#000] font-openSans text-base lg:text-lg leading-relaxed">Today, we’ve evolved into a fully integrated energy group, commanding the entire value chain from resource development to refining, distribution, and end-user delivery.</p>
-            <p className="text-[#000] font-openSans text-base lg:text-lg leading-relaxed">Our operations power industries, infrastructure, and communities across Africa, delivering reliable and sustainable energy solutions.</p>
+            <p className="text-[#000] font-openSans text-base leading-relaxed">ASEDO Energy Group began over a decade ago as a construction and logistics firm, with its sister company pioneering our entry into oil and gas.</p>
+            <p className="text-[#000] font-openSans text-base leading-relaxed">Today, we've evolved into a fully integrated energy group, commanding the entire value chain from resource development to refining, distribution, and end-user delivery.</p>
+            <p className="text-[#000] font-openSans text-base leading-relaxed">Our operations power industries, infrastructure, and communities across Africa, delivering reliable and sustainable energy solutions.</p>
 
             <Link
               href="/contact"
@@ -185,7 +185,7 @@ export default function AboutUs() {
             <div className="w-1.5 h-1.5 bg-[#0A1E3F]"></div>
             <p className="text-[#00A89D] font-openSans text-xs md:text-sm uppercase font-semibold">OUR GROWTH</p>
             <div className="w-1.5 h-1.5 bg-[#0A1E3F]"></div>
-            <h2 className="text-[#0A1E3F] font-montserrat text-3xl md:text-5xl font-medium ml-4">Company's Journey</h2>
+            <h2 className="text-[#0A1E3F] font-montserrat text-2xl md:text-3xl lg:text-4xl font-medium ml-4">Company's Journey</h2>
           </div>
 
           <div className="flex flex-col gap-24 w-full">
@@ -194,8 +194,8 @@ export default function AboutUs() {
                 {/* Text Side */}
                 <div className={`flex-1 flex flex-col gap-6 ${step.align === 'right' ? 'md:items-end md:text-right' : 'md:items-start md:text-left'}`}>
                   <div className="flex flex-col gap-2">
-                    <h3 className="text-[#00A89D] font-openSans text-xl font-semibold uppercase">{`YEAR ${step.year}`}</h3>
-                    <h4 className="text-black font-openSans text-2xl font-normal">{step.title}</h4>
+                    <h3 className="text-[#00A89D] font-openSans text-base md:text-lg font-semibold uppercase">{`YEAR ${step.year}`}</h3>
+                    <h4 className="text-black font-openSans text-lg md:text-xl font-normal">{step.title}</h4>
                   </div>
                   <p className="text-black font-openSans text-base leading-relaxed text-justify">
                     {step.description}

@@ -102,7 +102,7 @@ export default function OurServices() {
 
       {/* Industries We Serve Section */}
       <div className="w-full py-16 px-4 md:px-10 lg:px-20 bg-white">
-        <h2 className="text-[#0A1E3F] font-montserrat text-2xl md:text-4xl font-medium mb-12 tracking-tight">
+        <h2 className="text-[#0A1E3F] font-montserrat text-2xl md:text-3xl lg:text-4xl font-medium mb-12 tracking-tight">
           Industries We Serve
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -114,7 +114,7 @@ export default function OurServices() {
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
               <div className="absolute bottom-12 left-8 md:width-2/3">
-                <p className="text-white font-montserrat text-xl md:text-2xl lg:text-3xl font-medium leading-tight drop-shadow-md">
+                <p className="text-white font-montserrat text-lg md:text-xl font-medium leading-tight drop-shadow-md">
                   {item.title}
                 </p>
               </div>
@@ -133,7 +133,7 @@ export default function OurServices() {
               <p className="text-white font-openSans text-xs md:text-sm uppercase tracking-wide">OUR WORK PROCESS</p>
               <div className="w-1.5 h-1.5 bg-white"></div>
             </div>
-            <h2 className="text-white font-montserrat text-3xl md:text-5xl font-medium tracking-tight">
+            <h2 className="text-white font-montserrat text-2xl md:text-3xl lg:text-4xl font-medium tracking-tight">
               Our Process
             </h2>
           </div>
@@ -148,7 +148,7 @@ export default function OurServices() {
                   {/* Left Column: Number & Line */}
                   <div className="flex flex-col items-center flex-shrink-0 w-12">
                     <div className="z-10 bg-[#F5F5F5] rounded-full border border-[#EBEBEB] w-10 h-10 flex items-center justify-center">
-                      <span className="text-[#000206] font-inter text-lg font-medium">{step.number}</span>
+                      <span className="text-[#000206] font-inter text-base font-medium">{step.number}</span>
                     </div>
                     {index !== processSteps.length - 1 && (
                       <div className="absolute top-10 bottom-0 w-[1px] bg-[#EBEBEB]">
@@ -164,7 +164,7 @@ export default function OurServices() {
                       <div className="w-11 h-11 rounded-full border border-[#00A89D] bg-white flex items-center justify-center flex-shrink-0">
                         {step.icon}
                       </div>
-                      <h3 className="text-[#000206] font-openSans text-xl font-medium leading-tight tracking-tight mt-2">
+                      <h3 className="text-[#000206] font-openSans text-lg md:text-xl font-medium leading-tight tracking-tight mt-2">
                         {step.title}
                       </h3>
                       <p className="text-[#000206] font-openSans text-sm opacity-70 leading-relaxed">
@@ -202,7 +202,7 @@ export default function OurServices() {
           href="/contact"
           className="inline-flex py-3 px-8 items-center gap-3 bg-[#E3A700] hover:bg-[#d09900] transition-colors"
         >
-          <span className="text-[#0A1E3F] font-openSans text-base font-semibold">
+          <span className="text-[#0A1E3F] font-openSans text-sm md:text-base font-semibold">
             GET IN TOUCH
           </span>
           <svg width="20" height="20" viewBox="0 0 32 32" fill="none" className="w-5 h-5">
