@@ -1,6 +1,7 @@
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
 import Link from "next/link";
+import ShapeFutureCTA from "../components/ShapeFutureCTA";
 
 export default function AboutUs() {
   const stats = [
@@ -215,6 +216,8 @@ export default function AboutUs() {
           </div>
         </div>
       </div>
+
+      <ShapeFutureCTA />
 
       <Footer />
     </div>

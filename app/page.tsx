@@ -1,6 +1,7 @@
 import Navigation from "./components/Navigation";
 import Link from "next/link";
 import Footer from "./components/Footer";
+import ShapeFutureCTA from "./components/ShapeFutureCTA";
 
 export default function AsedoWebsiteRedesignLofi() {
   const industries = [
@@ -207,8 +208,13 @@ export default function AsedoWebsiteRedesignLofi() {
       </div>
 
       {/* What We Do Section */}
-      <div className="bg-[#FFF] w-full py-12 md:py-16 lg:py-20 px-4 sm:px-6 md:px-10 lg:px-20">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 lg:gap-16">
+      <div className="bg-[#FFF] w-full py-12 md:py-16 lg:py-20 px-4 sm:px-6 md:px-10 lg:px-20 relative overflow-hidden">
+        <img
+          src="/H9urg9ocppfpk6ycqcbyytkan141.png"
+          className="absolute right-0 bottom-0 w-auto h-full object-contain opacity-60 pointer-events-none"
+          alt="Background Pattern"
+        />
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 lg:gap-16 relative z-10">
           <div className="flex flex-col gap-6 md:gap-8">
             <div className="flex items-center gap-4 py-3">
               <div className="bg-[#0A1E3F] w-1.5 h-1.5 rounded-full"></div>
@@ -334,6 +340,233 @@ export default function AsedoWebsiteRedesignLofi() {
           ))}
         </div>
       </div>
+
+      {/* Our Numbers Section */}
+      <div className="flex flex-col md:flex-row w-full">
+        <div className="bg-[#00A89D] w-full md:w-1/2 py-12 md:py-16 lg:py-20 px-6 md:px-10 lg:px-16 relative overflow-hidden">
+          <img
+            src="/our-numbers-bg.png"
+            className="absolute inset-0 w-full h-full object-cover opacity-40 pointer-events-none"
+            alt="Our Numbers Background"
+          />
+          <div className="relative z-10 flex flex-col items-center justify-center h-full">
+            <div className="flex items-center gap-4 mb-8">
+              <h2 className="text-[#0A1E3F] font-montserrat text-3xl md:text-4xl lg:text-5xl font-semibold leading-tight tracking-tight">
+                Our Numbers
+              </h2>
+              <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-10 h-10 md:w-12 md:h-12">
+                <path d="M8 24H40M40 24L28 12M40 24L28 36" stroke="#0A1E3F" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div className="bg-[#0A1E3F] w-full md:w-1/2 py-12 md:py-16 lg:py-20 px-6 md:px-10 lg:px-16">
+          <div className="grid grid-cols-2 gap-8 md:gap-12 mb-12">
+            <div className="flex flex-col gap-2">
+              <p className="text-[#00A89D] font-montserrat text-3xl md:text-4xl lg:text-5xl font-semibold leading-tight tracking-tight">
+                10+
+              </p>
+              <p className="text-[#00A89D] font-openSans text-sm md:text-base font-normal leading-tight">
+                Years Of Experience
+              </p>
+            </div>
+            <div className="flex flex-col gap-2">
+              <p className="text-[#00A89D] font-montserrat text-3xl md:text-4xl lg:text-5xl font-semibold leading-tight tracking-tight">
+                4
+              </p>
+              <p className="text-[#00A89D] font-openSans text-sm md:text-base font-normal leading-tight">
+                Countries
+              </p>
+            </div>
+            <div className="flex flex-col gap-2">
+              <p className="text-[#00A89D] font-montserrat text-3xl md:text-4xl lg:text-5xl font-semibold leading-tight tracking-tight">
+                15+
+              </p>
+              <p className="text-[#00A89D] font-openSans text-sm md:text-base font-normal leading-tight">
+                Services Offered
+              </p>
+            </div>
+            <div className="flex flex-col gap-2">
+              <p className="text-[#00A89D] font-montserrat text-3xl md:text-4xl lg:text-5xl font-semibold leading-tight tracking-tight">
+                5
+              </p>
+              <p className="text-[#00A89D] font-openSans text-sm md:text-base font-normal leading-tight">
+                Operational Divisions
+              </p>
+            </div>
+          </div>
+          <div className="border-t-2 border-[#31871B] pt-12">
+            <div className="grid grid-cols-2 gap-8 md:gap-12">
+              <div className="flex flex-col gap-2">
+                <p className="text-[#31871B] font-montserrat text-3xl md:text-4xl lg:text-5xl font-semibold leading-tight tracking-tight">
+                  20M
+                </p>
+                <p className="text-[#31871B] font-openSans text-xs md:text-sm font-normal leading-tight">
+                  Annual Production Capacity Target (Crude & Gas)
+                </p>
+              </div>
+              <div className="flex flex-col gap-2">
+                <p className="text-[#31871B] font-montserrat text-3xl md:text-4xl lg:text-5xl font-semibold leading-tight tracking-tight">
+                  49%
+                </p>
+                <p className="text-[#31871B] font-openSans text-xs md:text-sm font-normal leading-tight">
+                  Projected Fleet & Equipment Growth by 2026
+                </p>
+              </div>
+              <div className="flex flex-col gap-2">
+                <p className="text-[#31871B] font-montserrat text-3xl md:text-4xl lg:text-5xl font-semibold leading-tight tracking-tight">
+                  500+
+                </p>
+                <p className="text-[#31871B] font-openSans text-xs md:text-sm font-normal leading-tight">
+                  Served clients
+                </p>
+              </div>
+              <div className="flex flex-col gap-2">
+                <p className="text-[#31871B] font-montserrat text-3xl md:text-4xl lg:text-5xl font-semibold leading-tight tracking-tight">
+                  25k
+                </p>
+                <p className="text-[#31871B] font-openSans text-xs md:text-sm font-normal leading-tight">
+                  Tonnes Processing Capacity (Refining & Gas)
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Insights & Updates Section */}
+      <div className="bg-[#FFF] w-full py-12 md:py-16 lg:py-20 px-4 sm:px-6 md:px-10 lg:px-20 relative overflow-hidden">
+        <div className="absolute right-0 top-0 w-1/2 h-full opacity-20 pointer-events-none">
+          <svg viewBox="0 0 1145 1031" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-full">
+            <ellipse cx="990.096" cy="632.86" rx="785.661" ry="793.91" transform="rotate(72.8705 990.096 632.86)" fill="url(#paint0_linear)" fillOpacity="0.6" />
+            <defs>
+              <linearGradient id="paint0_linear" x1="1516.73" y1="-115.993" x2="448.109" y2="529.497" gradientUnits="userSpaceOnUse">
+                <stop stopColor="#80FFF7" />
+                <stop offset="1" stopColor="#FAFFFF" stopOpacity="0.5" />
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+        <div className="relative z-10">
+          <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-8 md:mb-12 gap-6">
+            <div className="flex flex-col gap-4">
+              <div className="flex items-center gap-4 py-3">
+                <div className="bg-[#0A1E3F] w-1.5 h-1.5 rounded-full"></div>
+                <p className="text-[#00A89D] font-openSans text-xs md:text-sm font-normal leading-tight uppercase">
+                  OUR BLOGS
+                </p>
+                <div className="bg-[#0A1E3F] w-1.5 h-1.5 rounded-full"></div>
+              </div>
+              <h2 className="text-[#0A1E3F] font-montserrat text-2xl md:text-3xl lg:text-4xl font-medium leading-tight tracking-tight">
+                Insights & Updates
+              </h2>
+            </div>
+            <Link href="/blog" className="text-[#0A1E3F] font-openSans text-base md:text-lg font-normal hover:text-[#00A89D] transition-colors">
+              View all Blogs
+            </Link>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10 lg:gap-12">
+            <div className="flex flex-col gap-6">
+              <div className="w-full h-64 md:h-72 overflow-hidden">
+                <img
+                  src="/Img20250721wa00311300x2251.png"
+                  className="w-full h-full object-cover"
+                  alt="Partnership News"
+                />
+              </div>
+              <div className="flex flex-col gap-6">
+                <div className="flex items-center gap-4 flex-wrap">
+                  <span className="bg-[#000206] text-[#FFF] font-openSans text-sm md:text-base font-semibold py-2 px-4">
+                    Partnership News
+                  </span>
+                  <span className="text-[#000206] font-openSans text-sm md:text-base font-normal opacity-50">
+                    17 mins read
+                  </span>
+                </div>
+                <div className="flex flex-col gap-4">
+                  <h3 className="text-[#00A89D] font-openSans text-lg md:text-xl font-semibold leading-tight tracking-tight">
+                    ASEDO ENERGY and Its Partners set to transform with fully licensed cement megaproject
+                  </h3>
+                  <p className="text-[#000206] font-openSans text-base font-normal leading-tight tracking-tight opacity-50 line-clamp-3">
+                    Asedo Energy Group, in collaboration with its regional and technical partners, has officially secured all regulatory approvals for a fully licensed cement manufacturing and mining complex in Kebbi State, Northwest Nigeria.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="flex flex-col gap-6">
+              <div className="w-full h-64 md:h-72 overflow-hidden">
+                <img
+                  src="/Post_011024x5551.png"
+                  className="w-full h-full object-cover"
+                  alt="Oil & Gas News"
+                />
+              </div>
+              <div className="flex flex-col gap-6">
+                <div className="flex items-center gap-4 flex-wrap">
+                  <span className="bg-[#000206] text-[#FFF] font-openSans text-sm md:text-base font-semibold py-2 px-4">
+                    Oil & Gas News
+                  </span>
+                  <span className="text-[#000206] font-openSans text-sm md:text-base font-normal opacity-50">
+                    7 mins read
+                  </span>
+                </div>
+                <div className="flex flex-col gap-4">
+                  <h3 className="text-[#00A89D] font-openSans text-lg md:text-xl font-semibold leading-tight tracking-tight">
+                    Interactive technologies in factories and plants
+                  </h3>
+                  <p className="text-[#000206] font-openSans text-base font-normal leading-tight tracking-tight opacity-50 line-clamp-3">
+                    Industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book et iusto odio dignissimos ducimus.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Our Impact is Growing Across Nigeria Section */}
+      <div className="flex flex-col w-full bg-[#FFF]">
+        <div className="py-12 md:py-16 lg:py-20 px-4 sm:px-6 md:px-10 lg:px-20">
+          <div className="flex flex-col gap-4 mb-8">
+            <div className="flex items-center gap-4 py-3">
+              <div className="bg-[#0A1E3F] w-1.5 h-1.5 rounded-full"></div>
+              <p className="text-[#00A89D] font-openSans text-xs md:text-sm font-normal leading-tight uppercase">
+                LOCATIONS
+              </p>
+              <div className="bg-[#0A1E3F] w-1.5 h-1.5 rounded-full"></div>
+            </div>
+            <h2 className="text-[#0A1E3F] font-montserrat text-2xl md:text-3xl lg:text-4xl font-medium leading-tight tracking-tight">
+              Our impact is growing across Nigeria.
+            </h2>
+          </div>
+        </div>
+        <div className="bg-[#FFF] w-full py-12 md:py-16 lg:py-20 px-4 sm:px-6 md:px-10 lg:px-20 flex items-center justify-center">
+          <div className="relative w-[85%]">
+            <img
+              src="/nigerian-map.svg"
+              className="w-full h-auto"
+              alt="Nigeria Map"
+            />
+            <div className="absolute top-1/4 left-1/4 transform -translate-x-1/2 -translate-y-1/2">
+              <p className="text-[#00A89D] font-openSans text-base md:text-lg font-normal bg-white/90 px-3 py-1 rounded">
+                Ogun
+              </p>
+            </div>
+            <div className="absolute top-1/3 left-1/3 transform -translate-x-1/2 -translate-y-1/2">
+              <p className="text-[#00A89D] font-openSans text-base md:text-lg font-normal bg-white/90 px-3 py-1 rounded">
+                Lagos
+              </p>
+            </div>
+            <div className="absolute bottom-1/4 left-1/2 transform -translate-x-1/2 translate-y-1/2">
+              <p className="text-[#00A89D] font-openSans text-base md:text-lg font-normal bg-white/90 px-3 py-1 rounded">
+                Rivers
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <ShapeFutureCTA />
 
       <Footer />
     </div>

@@ -1,6 +1,7 @@
 import Navigation from "../components/Navigation";
 import Link from "next/link";
 import Footer from "../components/Footer";
+import ShapeFutureCTA from "../components/ShapeFutureCTA";
 
 export default function Blog() {
   const featuredPost = {
@@ -230,6 +231,8 @@ export default function Blog() {
           </div>
         </div>
       </div>
+
+      <ShapeFutureCTA />
 
       <Footer />
     </div>

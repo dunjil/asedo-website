@@ -1,5 +1,6 @@
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
+import ShapeFutureCTA from "../components/ShapeFutureCTA";
 
 interface ProjectFeature {
   text: string;
@@ -91,10 +92,44 @@ const projects: Project[] = [
     title: "Cement Manufacturing – Northwest Nigeria",
     status:
       "Licensing Complete | Procurement Underway | Construction: Q1 2026",
-    image: "/project-agriculture-silos.png", // Keeping original image source
+    image: "/Agriculturalsilosbuildingexterior1.png",
     features: [
       { text: "Fully licensed factory & mining site" },
       { text: "EPC contractor engaged" },
+      { text: "Power embedded from regional energy hub" },
+      { text: "Launch planned for late 2026" },
+    ],
+  },
+  {
+    title: "Gas-to-Power Program",
+    status: "Target Output: 418MW by 2028 | Phased Rollout Begun",
+    image: "/Environmentalpollutionindustryexteriordaylight1.png",
+    features: [
+      { text: "80MW plant (Southwest): Online Q4 2026" },
+      { text: "Distributed Microgrid (Cement, Retail): Starts Q3 2026" },
+      { text: "Central Gas IPP: In feasibility stage" },
+      { text: "Full buildout: 418MW by 2028" },
+    ],
+  },
+  {
+    title: "Enterprise Digitization Program",
+    status: "Platform Pilot Complete | Full Deployment: Q1 2026",
+    image: "/Image9.png",
+    features: [
+      { text: "Platform Pilot Complete | Full Deployment: Q1 2026" },
+      { text: "AMY smart device suite fully integrated" },
+      { text: "Centralized global command interface" },
+    ],
+  },
+  {
+    title: "Media Platform Expansion – U.S. Market",
+    status: "Negotiation Phase | Contract Expected: September | Close: October 2025",
+    image: "/Image10.png",
+    features: [
+      { text: "Strategic acquisition of a broadcast TV asset in the U.S." },
+      { text: "Transaction under confidentiality" },
+      { text: "Designed to anchor African content, commercial media and platform growth" },
+      { text: "Targeted for launch integration by late 2025" },
     ],
   },
 ];
@@ -208,6 +243,285 @@ export default function ProjectsPage() {
           </div>
         </div>
       </div>
+
+      {/* Strategic Global Footprint Section */}
+      <div className="w-full bg-white py-12 md:py-16 lg:py-20 px-4 sm:px-6 md:px-10 lg:px-20">
+        <div className="max-w-7xl mx-auto flex flex-col gap-8 md:gap-10">
+          <div className="flex items-center gap-4">
+            <div className="bg-[#0A1E3F] w-1.5 h-1.5 rounded-full"></div>
+            <p className="text-[#00A89D] font-openSans text-sm md:text-base font-bold uppercase tracking-wide">
+              ROADMAP
+            </p>
+            <div className="bg-[#0A1E3F] w-1.5 h-1.5 rounded-full"></div>
+          </div>
+          <h2 className="text-[#0A1E3F] font-montserrat text-2xl md:text-3xl lg:text-4xl font-medium leading-tight">
+            Strategic Global Footprint
+          </h2>
+        </div>
+      </div>
+
+      {/* Roadmap Cards Section */}
+      <div className="bg-[#0A1E3F] w-full py-16 md:py-20 px-4 sm:px-6 md:px-10 lg:px-20">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
+          {/* Nigeria */}
+          <div className="flex flex-col gap-4">
+            <div className="bg-white w-24 h-16 flex items-center justify-center overflow-hidden">
+              <img src="/271482.png" alt="Nigeria Flag" className="w-full h-full object-cover" />
+            </div>
+            <div className="flex flex-col gap-3">
+              <div className="flex items-center gap-4">
+                <p className="text-white font-openSans text-sm md:text-base">ROLE</p>
+                <div className="flex items-center gap-2">
+                  <div className="w-2 h-2 bg-white"></div>
+                  <p className="text-[#00A89D] font-openSans text-sm md:text-base">
+                    Refining, Retail, Cement, Logistics, Power
+                  </p>
+                </div>
+              </div>
+              <div className="flex items-center gap-4">
+                <p className="text-white font-openSans text-sm md:text-base">STATUS</p>
+                <div className="flex items-center gap-2 border border-[#E3A700] px-2 py-1">
+                  <div className="w-2 h-2 bg-[#E3A700]"></div>
+                  <p className="text-[#E3A700] font-openSans text-sm md:text-base">Active</p>
+                </div>
+              </div>
+              <div className="flex items-center gap-4">
+                <p className="text-white font-openSans text-sm md:text-base">KEY DATE</p>
+                <div className="flex items-center gap-2">
+                  <div className="w-2 h-2 bg-white"></div>
+                  <p className="text-[#00A89D] font-openSans text-sm md:text-base">Rolling</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* USA */}
+          <div className="flex flex-col gap-4">
+            <div className="bg-white w-24 h-16 flex items-center justify-center overflow-hidden">
+              <img src="/Americanflag2.png" alt="USA Flag" className="w-full h-full object-cover" />
+            </div>
+            <div className="flex flex-col gap-3">
+              <div className="flex items-center gap-4">
+                <p className="text-white font-openSans text-sm md:text-base">ROLE</p>
+                <div className="flex items-center gap-2">
+                  <div className="w-2 h-2 bg-white"></div>
+                  <p className="text-[#00A89D] font-openSans text-sm md:text-base">
+                    Fabrication, Retail, Leasing Base
+                  </p>
+                </div>
+              </div>
+              <div className="flex items-center gap-4">
+                <p className="text-white font-openSans text-sm md:text-base">STATUS</p>
+                <div className="flex items-center gap-2 border border-[#E3A700] px-2 py-1">
+                  <div className="w-2 h-2 bg-[#E3A700]"></div>
+                  <p className="text-[#E3A700] font-openSans text-sm md:text-base">Operational</p>
+                </div>
+              </div>
+              <div className="flex items-center gap-4">
+                <p className="text-white font-openSans text-sm md:text-base">KEY DATE</p>
+                <div className="flex items-center gap-2">
+                  <div className="w-2 h-2 bg-white"></div>
+                  <p className="text-[#00A89D] font-openSans text-sm md:text-base">Expanded Q2 2025</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* UAE */}
+          <div className="flex flex-col gap-4">
+            <div className="bg-white w-24 h-16 flex items-center justify-center overflow-hidden">
+              <img src="/Flagunitedarabemirates1.png" alt="UAE Flag" className="w-full h-full object-cover" />
+            </div>
+            <div className="flex flex-col gap-3">
+              <div className="flex items-center gap-4">
+                <p className="text-white font-openSans text-sm md:text-base">ROLE</p>
+                <div className="flex items-center gap-2">
+                  <div className="w-2 h-2 bg-white"></div>
+                  <p className="text-[#00A89D] font-openSans text-sm md:text-base">
+                    Refining & Trade Hub
+                  </p>
+                </div>
+              </div>
+              <div className="flex items-center gap-4">
+                <p className="text-white font-openSans text-sm md:text-base">STATUS</p>
+                <div className="flex items-center gap-2 border border-[#E3A700] px-2 py-1">
+                  <div className="w-2 h-2 bg-[#E3A700]"></div>
+                  <p className="text-[#E3A700] font-openSans text-sm md:text-base">Acquisition</p>
+                </div>
+              </div>
+              <div className="flex items-center gap-4">
+                <p className="text-white font-openSans text-sm md:text-base">KEY DATE</p>
+                <div className="flex items-center gap-2">
+                  <div className="w-2 h-2 bg-white"></div>
+                  <p className="text-[#00A89D] font-openSans text-sm md:text-base">Closing Q1 2026</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Turkey */}
+          <div className="flex flex-col gap-4">
+            <div className="bg-white w-24 h-16 flex items-center justify-center overflow-hidden">
+              <img src="/010323141.png" alt="Turkey Flag" className="w-full h-full object-cover" />
+            </div>
+            <div className="flex flex-col gap-3">
+              <div className="flex items-center gap-4">
+                <p className="text-white font-openSans text-sm md:text-base">ROLE</p>
+                <div className="flex items-center gap-2">
+                  <div className="w-2 h-2 bg-white"></div>
+                  <p className="text-[#00A89D] font-openSans text-sm md:text-base">
+                    Procurement & Tech Interface
+                  </p>
+                </div>
+              </div>
+              <div className="flex items-center gap-4">
+                <p className="text-white font-openSans text-sm md:text-base">STATUS</p>
+                <div className="flex items-center gap-2 border border-[#E3A700] px-2 py-1">
+                  <div className="w-2 h-2 bg-[#E3A700]"></div>
+                  <p className="text-[#E3A700] font-openSans text-sm md:text-base">Opening Soon</p>
+                </div>
+              </div>
+              <div className="flex items-center gap-4">
+                <p className="text-white font-openSans text-sm md:text-base">KEY DATE</p>
+                <div className="flex items-center gap-2">
+                  <div className="w-2 h-2 bg-white"></div>
+                  <p className="text-[#00A89D] font-openSans text-sm md:text-base">Q1 2026</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* East Africa */}
+          <div className="flex flex-col gap-4">
+            <div className="flex items-end gap-2">
+              <div className="bg-white w-24 h-16 flex items-center justify-center overflow-hidden">
+                <img src="/280752p61k2q5321.png" alt="East Africa" className="w-full h-full object-cover" />
+              </div>
+              <p className="text-gray-300 font-openSans text-sm opacity-70">East Africa</p>
+            </div>
+            <div className="flex flex-col gap-3">
+              <div className="flex items-center gap-4">
+                <p className="text-white font-openSans text-sm md:text-base">ROLE</p>
+                <div className="flex items-center gap-2">
+                  <div className="w-2 h-2 bg-white"></div>
+                  <p className="text-[#00A89D] font-openSans text-sm md:text-base">
+                    Smart Devices (Project AMY)
+                  </p>
+                </div>
+              </div>
+              <div className="flex items-center gap-4">
+                <p className="text-white font-openSans text-sm md:text-base">STATUS</p>
+                <div className="flex items-center gap-2 border border-[#E3A700] px-2 py-1">
+                  <div className="w-2 h-2 bg-[#E3A700]"></div>
+                  <p className="text-[#E3A700] font-openSans text-sm md:text-base">Launching</p>
+                </div>
+              </div>
+              <div className="flex items-center gap-4">
+                <p className="text-white font-openSans text-sm md:text-base">KEY DATE</p>
+                <div className="flex items-center gap-2">
+                  <div className="w-2 h-2 bg-white"></div>
+                  <p className="text-[#00A89D] font-openSans text-sm md:text-base">Q4 2025</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* West Africa */}
+          <div className="flex flex-col gap-4">
+            <div className="flex items-end gap-2">
+              <div className="bg-white w-24 h-16 flex items-center justify-center overflow-hidden">
+                <img src="/280752p61k2q5321(1).png" alt="West Africa" className="w-full h-full object-cover" />
+              </div>
+              <p className="text-gray-300 font-openSans text-sm opacity-70">West Africa</p>
+            </div>
+            <div className="flex flex-col gap-3">
+              <div className="flex items-center gap-4">
+                <p className="text-white font-openSans text-sm md:text-base">ROLE</p>
+                <div className="flex items-center gap-2">
+                  <div className="w-2 h-2 bg-white"></div>
+                  <p className="text-[#00A89D] font-openSans text-sm md:text-base">
+                    Retail & Device Distribution
+                  </p>
+                </div>
+              </div>
+              <div className="flex items-center gap-4">
+                <p className="text-white font-openSans text-sm md:text-base">STATUS</p>
+                <div className="flex items-center gap-2 border border-[#E3A700] px-2 py-1">
+                  <div className="w-2 h-2 bg-[#E3A700]"></div>
+                  <p className="text-[#E3A700] font-openSans text-sm md:text-base">Rolling</p>
+                </div>
+              </div>
+              <div className="flex items-center gap-4">
+                <p className="text-white font-openSans text-sm md:text-base">KEY DATE</p>
+                <div className="flex items-center gap-2">
+                  <div className="w-2 h-2 bg-white"></div>
+                  <p className="text-[#00A89D] font-openSans text-sm md:text-base">Through 2026</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Execution Commitment Section */}
+      <div className="bg-[#00A89D] w-full py-16 md:py-20 px-4 sm:px-6 md:px-10 lg:px-20">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 md:gap-16 items-center">
+          {/* Left: Content */}
+          <div className="flex flex-col gap-10">
+            <div className="flex flex-col gap-6">
+              <h2 className="text-[#000206] font-montserrat text-3xl md:text-4xl lg:text-5xl font-normal leading-tight">
+                Execution Commitment
+              </h2>
+              <div className="border-l-2 border-[#0A1E3F] pl-6">
+                <p className="text-white font-openSans text-lg md:text-xl leading-relaxed">
+                  "Our vision is industrial, our execution is silent, and our model is built for the long term not headlines, but real assets in motion."
+                </p>
+              </div>
+            </div>
+
+            <div className="flex flex-col gap-5">
+              {[
+                "Multi-region diversification",
+                "Quiet partner acquisition strategy",
+                "Technology-first integration",
+                "Energy as an industrial base",
+                "Execution built on measurable milestones"
+              ].map((item, index) => (
+                <div key={index} className="flex items-center gap-4">
+                  <svg
+                    width="32"
+                    height="32"
+                    viewBox="0 0 32 32"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="w-8 h-8 flex-shrink-0"
+                  >
+                    <path
+                      d="M12 14.6667L16 18.6667L29.3333 5.33333M21.3333 4H10.4C8.15979 4 7.03969 4 6.18404 4.43597C5.43139 4.81947 4.81947 5.43139 4.43597 6.18404C4 7.03969 4 8.15979 4 10.4V21.6C4 23.8402 4 24.9603 4.43597 25.816C4.81947 26.5686 5.43139 27.1805 6.18404 27.564C7.03969 28 8.15979 28 10.4 28H21.6C23.8402 28 24.9603 28 25.816 27.564C26.5686 27.1805 27.1805 26.5686 27.564 25.816C28 24.9603 28 23.8402 28 21.6V16"
+                      stroke="white"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
+                  <p className="text-[#000] font-openSans text-lg md:text-xl">{item}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Right: Image */}
+          <div className="bg-white overflow-hidden">
+            <img
+              src="/Seriousexecutivesittinghisoffice1.png"
+              alt="Executive"
+              className="w-full h-full object-cover"
+            />
+          </div>
+        </div>
+      </div>
+
+      <ShapeFutureCTA />
 
       <Footer />
     </div>

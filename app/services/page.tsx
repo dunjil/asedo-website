@@ -1,6 +1,7 @@
 import Navigation from "../components/Navigation";
 import Link from "next/link";
 import Footer from "../components/Footer";
+import ShapeFutureCTA from "../components/ShapeFutureCTA";
 
 export default function OurServices() {
   const industries = [
@@ -193,23 +194,7 @@ export default function OurServices() {
         </div>
       </div>
 
-      {/* CTA Section */}
-      <div className="bg-[#0A1E3F] w-full py-16 px-4 md:px-20 text-center">
-        <h2 className="text-white font-montserrat text-2xl md:text-3xl font-medium mb-6">
-          Ready to Work With Us?
-        </h2>
-        <Link
-          href="/contact"
-          className="inline-flex py-3 px-8 items-center gap-3 bg-[#E3A700] hover:bg-[#d09900] transition-colors"
-        >
-          <span className="text-[#0A1E3F] font-openSans text-sm md:text-base font-semibold">
-            GET IN TOUCH
-          </span>
-          <svg width="20" height="20" viewBox="0 0 32 32" fill="none" className="w-5 h-5">
-            <path d="M8 24L24 8M24 8H13.3333M24 8V18.6667" stroke="#0A1E3F" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
-          </svg>
-        </Link>
-      </div>
+      <ShapeFutureCTA />
 
       <Footer />
     </div>
