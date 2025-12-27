@@ -4,7 +4,7 @@ export default function ShapeFutureCTA() {
     return (
         <div className="bg-[#00A89D] w-full py-16 md:py-20 lg:py-24 px-4 sm:px-6 md:px-10 lg:px-20 relative overflow-hidden">
             <img
-                src="/shape-future-bg.png"
+                src="/backgrounds/cta-shape-future-bg.png"
                 className="absolute inset-0 w-full h-full object-cover opacity-30 pointer-events-none"
                 alt="Shape Future Background"
             />

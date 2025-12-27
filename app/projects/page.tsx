@@ -17,7 +17,7 @@ const projects: Project[] = [
   {
     title: "Southwest Nigeria Energy & Industrial Hub",
     status: "30% Complete | Target Commissioning: Q4 2026",
-    image: "/project-southwest-energy-hub.png",
+    image: "/projects/southwest-energy-hub.png",
     features: [
       { text: "Modular Refinery (50,000 BPD)" },
       { text: "Gas Processing (50,000 BPD equivalent)" },
@@ -30,7 +30,7 @@ const projects: Project[] = [
     title: "Oil & Gas Asset Monetization (Niger Delta Basin)",
     status:
       "Pre-Development | Early Production Plan: Q1 2026 | First Oil Target: Q3 2028",
-    image: "/project-niger-delta.png",
+    image: "/projects/niger-delta.png",
     features: [
       { text: "Two upstream blocks in final acquisition phase" },
       { text: "Gas reserves: Estimated over 1 TCF" },
@@ -42,7 +42,7 @@ const projects: Project[] = [
   {
     title: "UAE Refinery Acquisition (Middle East)",
     status: "Final Stage | Transfer Expected: Q1 2026",
-    image: "/project-uae-refinery.png",
+    image: "/projects/uae-refinery.png",
     features: [
       { text: "Operational refinery (>100,000 BPD)" },
       { text: "High-access logistics hub" },
@@ -56,7 +56,7 @@ const projects: Project[] = [
   {
     title: "North America Industrial Platform",
     status: "Operational | Africa Integration Commencing Q4 2025",
-    image: "/project-north-america.png",
+    image: "/projects/north-america.png",
     features: [
       { text: "Heavy fabrication, testing, and leasing base" },
       { text: "Strategic support for U.S.–Africa energy service corridor" },
@@ -67,7 +67,7 @@ const projects: Project[] = [
     title: "Project AMY – Smart Device Ecosystem",
     status:
       "Acquisition to Close: October 2025 | Launch: Q4 2025 (Nigeria + East Africa)",
-    image: "/project-manager-tablet.png",
+    image: "/projects/manager-tablet.png",
     features: [
       { text: "High-end smartphones and industrial tablets" },
       { text: "Built for field operations, logistics & safety systems" },
@@ -78,7 +78,7 @@ const projects: Project[] = [
     title: "Retail Energy Expansion – Nigeria & U.S.",
     status:
       "Nigeria: 50 Stations by Dec 2025 | U.S.: 4 Active (One Co-Branded)",
-    image: "/project-kebbi-cement.png", // Keeping original image source despite name mismatch
+    image: "/projects/retail-energy-expansion.png", // Retail Energy Expansion project
     features: [
       { text: "NIGERIA: 50 smart-enabled service stations" },
       { text: "EV, LPG, solar hybrid features" },
@@ -92,7 +92,7 @@ const projects: Project[] = [
     title: "Cement Manufacturing – Northwest Nigeria",
     status:
       "Licensing Complete | Procurement Underway | Construction: Q1 2026",
-    image: "/Agriculturalsilosbuildingexterior1.png",
+    image: "/projects/agriculture-silos.png",
     features: [
       { text: "Fully licensed factory & mining site" },
       { text: "EPC contractor engaged" },
@@ -103,7 +103,7 @@ const projects: Project[] = [
   {
     title: "Gas-to-Power Program",
     status: "Target Output: 418MW by 2028 | Phased Rollout Begun",
-    image: "/Environmentalpollutionindustryexteriordaylight1.png",
+    image: "/projects/environment-industry.png",
     features: [
       { text: "80MW plant (Southwest): Online Q4 2026" },
       { text: "Distributed Microgrid (Cement, Retail): Starts Q3 2026" },
@@ -114,7 +114,7 @@ const projects: Project[] = [
   {
     title: "Enterprise Digitization Program",
     status: "Platform Pilot Complete | Full Deployment: Q1 2026",
-    image: "/Image9.png",
+    image: "/projects/enterprise-digitization.png",
     features: [
       { text: "Platform Pilot Complete | Full Deployment: Q1 2026" },
       { text: "AMY smart device suite fully integrated" },
@@ -124,7 +124,7 @@ const projects: Project[] = [
   {
     title: "Media Platform Expansion – U.S. Market",
     status: "Negotiation Phase | Contract Expected: September | Close: October 2025",
-    image: "/Image10.png",
+    image: "/projects/media-platform-expansion.png",
     features: [
       { text: "Strategic acquisition of a broadcast TV asset in the U.S." },
       { text: "Transaction under confidentiality" },
@@ -142,7 +142,7 @@ export default function ProjectsPage() {
       {/* Hero Section */}
       <div className="relative w-full h-[60vh] md:h-[60vh] lg:h-[60vh] min-h-[400px]">
         <img
-          src="/project-header.png"
+          src="/projects/header.png"
           className="absolute inset-0 w-full h-full object-cover"
           alt="Projects Hero"
         />
@@ -266,7 +266,7 @@ export default function ProjectsPage() {
           {/* Nigeria */}
           <div className="flex flex-col gap-4">
             <div className="bg-white w-24 h-16 flex items-center justify-center overflow-hidden">
-              <img src="/271482.png" alt="Nigeria Flag" className="w-full h-full object-cover" />
+              <img src="/flags/nigeria.png" alt="Nigeria Flag" className="w-full h-full object-cover" />
             </div>
             <div className="flex flex-col gap-3">
               <div className="flex items-center gap-4">
@@ -298,7 +298,7 @@ export default function ProjectsPage() {
           {/* USA */}
           <div className="flex flex-col gap-4">
             <div className="bg-white w-24 h-16 flex items-center justify-center overflow-hidden">
-              <img src="/Americanflag2.png" alt="USA Flag" className="w-full h-full object-cover" />
+              <img src="/flags/usa.png" alt="USA Flag" className="w-full h-full object-cover" />
             </div>
             <div className="flex flex-col gap-3">
               <div className="flex items-center gap-4">
@@ -330,7 +330,7 @@ export default function ProjectsPage() {
           {/* UAE */}
           <div className="flex flex-col gap-4">
             <div className="bg-white w-24 h-16 flex items-center justify-center overflow-hidden">
-              <img src="/Flagunitedarabemirates1.png" alt="UAE Flag" className="w-full h-full object-cover" />
+              <img src="/flags/uae.png" alt="UAE Flag" className="w-full h-full object-cover" />
             </div>
             <div className="flex flex-col gap-3">
               <div className="flex items-center gap-4">
@@ -362,7 +362,7 @@ export default function ProjectsPage() {
           {/* Turkey */}
           <div className="flex flex-col gap-4">
             <div className="bg-white w-24 h-16 flex items-center justify-center overflow-hidden">
-              <img src="/010323141.png" alt="Turkey Flag" className="w-full h-full object-cover" />
+              <img src="/flags/turkey.png" alt="Turkey Flag" className="w-full h-full object-cover" />
             </div>
             <div className="flex flex-col gap-3">
               <div className="flex items-center gap-4">
@@ -395,7 +395,7 @@ export default function ProjectsPage() {
           <div className="flex flex-col gap-4">
             <div className="flex items-end gap-2">
               <div className="bg-white w-24 h-16 flex items-center justify-center overflow-hidden">
-                <img src="/280752p61k2q5321.png" alt="East Africa" className="w-full h-full object-cover" />
+                <img src="/flags/east-africa.png" alt="East Africa" className="w-full h-full object-cover" />
               </div>
               <p className="text-gray-300 font-openSans text-sm opacity-70">East Africa</p>
             </div>
@@ -430,7 +430,7 @@ export default function ProjectsPage() {
           <div className="flex flex-col gap-4">
             <div className="flex items-end gap-2">
               <div className="bg-white w-24 h-16 flex items-center justify-center overflow-hidden">
-                <img src="/280752p61k2q5321(1).png" alt="West Africa" className="w-full h-full object-cover" />
+                <img src="/flags/west-africa.png" alt="West Africa" className="w-full h-full object-cover" />
               </div>
               <p className="text-gray-300 font-openSans text-sm opacity-70">West Africa</p>
             </div>
@@ -513,7 +513,7 @@ export default function ProjectsPage() {
           {/* Right: Image */}
           <div className="bg-white overflow-hidden">
             <img
-              src="/Seriousexecutivesittinghisoffice1.png"
+              src="/team/projects-execution-commitment.png"
               alt="Executive"
               className="w-full h-full object-cover"
             />

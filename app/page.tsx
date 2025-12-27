@@ -7,27 +7,27 @@ export default function AsedoWebsiteRedesignLofi() {
   const industries = [
     {
       title: "Upstream Development",
-      image: "/industry-upstream-development.png",
+      image: "/industries/upstream-development.png",
     },
     {
       title: "Offshore Drilling & Marine Logistics",
-      image: "/industry-offshore-drilling.png",
+      image: "/industries/offshore-drilling.png",
     },
     {
       title: "Refining & Processing",
-      image: "/industry-refining-processing.png",
+      image: "/industries/refining-processing.png",
     },
     {
       title: "Gas & Power Infrastructure",
-      image: "/industry-gas-power.png",
+      image: "/industries/gas-power.png",
     },
     {
       title: "Nationwide Distribution Network",
-      image: "/industry-distribution-network.png",
+      image: "/industries/distribution-network.png",
     },
     {
       title: "Procurement & Supply Chain Solutions",
-      image: "/industry-supply-chain.png",
+      image: "/industries/supply-chain.png",
     },
   ];
 
@@ -59,7 +59,7 @@ export default function AsedoWebsiteRedesignLofi() {
       {/* Hero Section */}
       <div className="relative w-full min-h-[400px] md:min-h-[500px] lg:min-h-[700px] flex items-center overflow-hidden">
         <img
-          src="/hero-sustainable-energy.png"
+          src="/heroes/home-hero.png"
           className="absolute inset-0 w-full h-full object-cover"
           alt="Sustainable Energy Solutions"
         />
@@ -168,7 +168,7 @@ export default function AsedoWebsiteRedesignLofi() {
       {/* Team Section */}
       <div className="relative w-full min-h-[400px] md:min-h-[500px] flex items-center overflow-hidden">
         <img
-          src="/team-offshore-engineer.png"
+          src="/team/home-team-section.png"
           className="absolute inset-0 w-full h-full object-cover"
           alt="Our Team"
         />
@@ -210,7 +210,7 @@ export default function AsedoWebsiteRedesignLofi() {
       {/* What We Do Section */}
       <div className="bg-[#FFF] w-full py-12 md:py-16 lg:py-20 px-4 sm:px-6 md:px-10 lg:px-20 relative overflow-hidden">
         <img
-          src="/H9urg9ocppfpk6ycqcbyytkan141.png"
+          src="/backgrounds/home-what-we-do-pattern.png"
           className="absolute right-0 bottom-0 w-auto h-full object-contain opacity-60 pointer-events-none"
           alt="Background Pattern"
         />
@@ -255,7 +255,7 @@ export default function AsedoWebsiteRedesignLofi() {
           <div className="relative">
             <div className="relative h-64 md:h-80 overflow-hidden border border-[#000]">
               <img
-                src="/team-research-breakthrough.png"
+                src="/team/home-what-we-do.png"
                 className="w-full h-full object-cover"
                 alt="Industrial Research"
               />
@@ -345,7 +345,7 @@ export default function AsedoWebsiteRedesignLofi() {
       <div className="flex flex-col md:flex-row w-full">
         <div className="bg-[#00A89D] w-full md:w-1/2 py-12 md:py-16 lg:py-20 px-6 md:px-10 lg:px-16 relative overflow-hidden">
           <img
-            src="/our-numbers-bg.png"
+            src="/backgrounds/home-our-numbers-bg.png"
             className="absolute inset-0 w-full h-full object-cover opacity-40 pointer-events-none"
             alt="Our Numbers Background"
           />
@@ -469,7 +469,7 @@ export default function AsedoWebsiteRedesignLofi() {
             <div className="flex flex-col gap-6">
               <div className="w-full h-64 md:h-72 overflow-hidden">
                 <img
-                  src="/Img20250721wa00311300x2251.png"
+                  src="/blog/partnership-news-cement.png"
                   className="w-full h-full object-cover"
                   alt="Partnership News"
                 />
@@ -496,7 +496,7 @@ export default function AsedoWebsiteRedesignLofi() {
             <div className="flex flex-col gap-6">
               <div className="w-full h-64 md:h-72 overflow-hidden">
                 <img
-                  src="/Post_011024x5551.png"
+                  src="/blog/industry-insights-interactive-tech.png"
                   className="w-full h-full object-cover"
                   alt="Oil & Gas News"
                 />
@@ -543,7 +543,7 @@ export default function AsedoWebsiteRedesignLofi() {
         <div className="bg-[#FFF] w-full py-12 md:py-16 lg:py-20 px-4 sm:px-6 md:px-10 lg:px-20 flex items-center justify-center">
           <div className="relative w-[85%]">
             <img
-              src="/nigerian-map.svg"
+              src="/maps/nigeria.png"
               className="w-full h-auto"
               alt="Nigeria Map"
             />

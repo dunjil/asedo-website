@@ -21,7 +21,7 @@ export default function Navigation({ currentPath }: NavigationProps) {
     <div className="sticky top-0 z-50 flex py-4 md:py-6 px-4 md:px-10 lg:px-20 justify-between items-center border-b-[0.4px] border-b-[#000] bg-[#FFF] w-full">
       <Link href="/">
         <img
-          src="/logo.png"
+          src="/logos/logo.png"
           className="shrink-0 w-32 md:w-64 h-auto max-w-none"
           alt="ASEDO Logo"
         />
@@ -98,8 +98,8 @@ export default function Navigation({ currentPath }: NavigationProps) {
               >
                 <p
                   className={`font-openSans text-sm leading-[1.25em] ${currentPath === item.href
-                      ? "text-[#000206] font-semibold"
-                      : "text-[#000206] font-normal"
+                    ? "text-[#000206] font-semibold"
+                    : "text-[#000206] font-normal"
                     }`}
                 >
                   {item.label}

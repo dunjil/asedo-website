@@ -10,7 +10,7 @@ export default function Footer() {
                     {/* Logo & Description */}
                     <div className="flex flex-col gap-6 max-w-sm">
                         <img
-                            src="/logo-footer.png"
+                            src="/logos/logo-footer.png"
                             className="w-40 h-auto"
                             alt="ASEDO Logo"
                         />

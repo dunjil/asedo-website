@@ -91,7 +91,7 @@ export default function OurServices() {
       {/* Hero Section */}
       <div className="relative w-full h-[300px] md:h-[400px] lg:h-[500px] overflow-hidden">
         <img
-          src="/images/services/Smartfactoryspecialisttestingautomatedsystemsmonitoringproduction1.png"
+          src="/services/smart-factory-specialist.png"
           className="w-full h-full object-cover"
           alt="Services Hero"
         />

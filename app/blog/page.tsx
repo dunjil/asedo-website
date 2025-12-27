@@ -9,7 +9,7 @@ export default function Blog() {
     excerpt: "Asedo Energy Group, in collaboration with its regional and technical partners, has officially secured all regulatory approvals for a fully licensed cement manufacturing and mining complex in Kebbi State, Northwest Nigeria.",
     category: "Partnership News",
     readTime: "17 mins read",
-    image: "/blog-featured-cement-project.png",
+    image: "/blog/cement-project-featured.png",
     slug: "asedo-cement-megaproject",
   };
 
@@ -19,7 +19,7 @@ export default function Blog() {
       excerpt: "Asedo Energy Group, in collaboration with its regional and technical partners, has officially secured all regulatory approvals...",
       category: "Partnership News",
       readTime: "17 mins read",
-      image: "/blog-cement-project-1.png",
+      image: "/blog/partnership-news-cement.png",
       slug: "asedo-cement-megaproject",
     },
     {

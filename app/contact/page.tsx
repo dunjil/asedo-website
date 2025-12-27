@@ -63,7 +63,7 @@ export default function ContactPage() {
           {/* Decorative Image */}
           <div className="hidden lg:block bg-[#F5F5F5] min-h-[400px] lg:min-h-[600px] relative overflow-hidden">
             <img
-              src="/contact-illustration.png"
+              src="/contact/illustration.png"
               className="absolute inset-0 w-full h-full object-cover object-center"
               alt="Contact Us"
             />

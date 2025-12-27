@@ -12,13 +12,13 @@ export default function AboutUs() {
   ];
 
   const journeySteps = [
-    { year: "2012", title: "Journey Was Started", description: "ASEDO’s story began in Rivers State, Nigeria, as a construction and logistics company, delivering infrastructure works for the Rivers State Government. Our core services included sand supply, construction equipment leasing, and civil works execution.", image: "/images/about-us/Frame162.png", align: "left" },
-    { year: "2014", title: "Expansion into Lagos", description: "We expanded into Lagos, establishing dredging operations at Addo Road, Ajah, while scaling our logistics and equipment supply services to meet growing demand across Southwest Nigeria.", image: "/images/about-us/Frame162(1).png", align: "right" },
-    { year: "2015", title: "Entry into Oil & Gas", description: "ASEDO entered the oil and gas sector, supporting industry leaders including Total E&P (now TotalEnergies), ExxonMobil, Saipem, and others. Our services grew to include oilfield logistics, equipment supply, and support operations across Nigeria’s upstream sector.", image: "/images/about-us/Frame162(2).png", align: "left" },
-    { year: "2018", title: "From Builders to Energy Leaders", description: "A strategic shift saw ASEDO consolidate its energy operations, transitioning from a construction-focused firm to a diversified energy logistics and services company.", image: "/images/about-us/Frame162(3).png", align: "right" },
-    { year: "2020", title: "Infrastructure Investment", description: "With investments in coastal logistics, crude transport, and modular refining infrastructure, ASEDO deepened its presence across the oil and gas value chain, preparing for large-scale operations in refining and terminal management.", image: "/images/about-us/Frame162(4).png", align: "left" },
-    { year: "2024", title: "The Birth of Asedo Energy Group", description: "ASEDO officially rebranded as ASEDO Energy Group, unifying its upstream, midstream, and downstream operations. This milestone marked our evolution into a fully integrated energy company, powering industries and communities across Africa.", image: "/images/about-us/Frame162(5).png", align: "right" },
-    { year: "2025", title: "Global Expansion. Ongoing…", description: "ASEDO Energy is expanding beyond Nigeria into key global markets. Our footprint now includes the UAE, Turkey, USA, UK, Canada, and broader Europe, where we continue to pursue new projects and strategic partnerships. Today, we operate across construction, logistics, oil & gas, technology, and media sectors—driving Africa’s industrial growth and powering its future.", image: "/images/about-us/Frame162(6).png", align: "left" },
+    { year: "2012", title: "Journey Was Started", description: "ASEDO’s story began in Rivers State, Nigeria, as a construction and logistics company, delivering infrastructure works for the Rivers State Government. Our core services included sand supply, construction equipment leasing, and civil works execution.", image: "/about-us/timeline-2012.png", align: "left" },
+    { year: "2014", title: "Expansion into Lagos", description: "We expanded into Lagos, establishing dredging operations at Addo Road, Ajah, while scaling our logistics and equipment supply services to meet growing demand across Southwest Nigeria.", image: "/about-us/timeline-2014.png", align: "right" },
+    { year: "2015", title: "Entry into Oil & Gas", description: "ASEDO entered the oil and gas sector, supporting industry leaders including Total E&P (now TotalEnergies), ExxonMobil, Saipem, and others. Our services grew to include oilfield logistics, equipment supply, and support operations across Nigeria’s upstream sector.", image: "/about-us/timeline-2015.png", align: "left" },
+    { year: "2018", title: "From Builders to Energy Leaders", description: "A strategic shift saw ASEDO consolidate its energy operations, transitioning from a construction-focused firm to a diversified energy logistics and services company.", image: "/about-us/timeline-2018.png", align: "right" },
+    { year: "2020", title: "Infrastructure Investment", description: "With investments in coastal logistics, crude transport, and modular refining infrastructure, ASEDO deepened its presence across the oil and gas value chain, preparing for large-scale operations in refining and terminal management.", image: "/about-us/timeline-2020.png", align: "left" },
+    { year: "2024", title: "The Birth of Asedo Energy Group", description: "ASEDO officially rebranded as ASEDO Energy Group, unifying its upstream, midstream, and downstream operations. This milestone marked our evolution into a fully integrated energy company, powering industries and communities across Africa.", image: "/about-us/timeline-2024.png", align: "right" },
+    { year: "2025", title: "Global Expansion. Ongoing…", description: "ASEDO Energy is expanding beyond Nigeria into key global markets. Our footprint now includes the UAE, Turkey, USA, UK, Canada, and broader Europe, where we continue to pursue new projects and strategic partnerships. Today, we operate across construction, logistics, oil & gas, technology, and media sectors—driving Africa’s industrial growth and powering its future.", image: "/about-us/timeline-2025.png", align: "left" },
   ];
 
   return (
@@ -28,7 +28,7 @@ export default function AboutUs() {
       {/* Hero Section */}
       <div className="relative w-full h-[500px] md:h-[600px] lg:h-[700px] overflow-hidden">
         <img
-          src="/images/about-us/Ija7m2biu198azngt0jhntaoqcw1.png"
+          src="/about-us/hero.png"
           className="w-full h-full object-cover"
           alt="About Us Hero"
         />
@@ -40,59 +40,40 @@ export default function AboutUs() {
         </div>
       </div>
 
-      {/* Intro Section */}
-      <div className="w-full py-16 px-4 md:px-10 lg:px-20 bg-white">
-        <div className="flex flex-col gap-6 max-w-7xl mx-auto">
-          <div className="flex items-center gap-4 bg-[#white] w-fit rounded-xl px-4 py-2">
-            <div className="w-1.5 h-1.5 bg-[#0A1E3F]"></div>
-            <p className="text-[#00A89D] font-openSans text-xs md:text-sm uppercase font-semibold">ABOUT US</p>
-            <div className="w-1.5 h-1.5 bg-[#0A1E3F]"></div>
+      {/* Mission Section */}
+      <div className="bg-[#FFF] w-full py-12 md:py-16 lg:py-20 px-4 sm:px-6 md:px-10 lg:px-20">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 lg:gap-16 items-center">
+          {/* Left: Image */}
+          <div className="relative h-64 md:h-96 lg:h-[500px] overflow-hidden border border-[#000]">
+            <img
+              src="/about-us/solar-panel-team.png"
+              className="w-full h-full object-cover"
+              alt="Solar Panel Team"
+            />
+            <div className="absolute inset-0 bg-gradient-to-r from-cyan-100/10 to-white/50"></div>
           </div>
-          <p className="text-[#0A1E3F] font-montserrat text-base md:text-lg font-normal leading-relaxed text-justify md:text-left">
-            At ASEDO Energy Group, we drive Africa's oil, gas, and power industries through world-class infrastructure and innovative solutions. From upstream exploration to refining, gas processing, petroleum logistics, and retail, we are building the future of sustainable energy across Nigeria and global markets.
-          </p>
-        </div>
-      </div>
 
-      {/* Stats Section */}
-      <div className="w-full bg-[#0A1E3F] py-16 px-4 md:px-10 lg:px-20">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 text-center md:text-left">
-          {stats.map((stat, index) => (
-            <div key={index} className="flex flex-col gap-2">
-              <p className="text-[#00A89D] font-montserrat text-4xl md:text-5xl font-semibold">{stat.value}</p>
-              <p className="text-[#00A89D] font-openSans text-xs md:text-sm">{stat.label}</p>
+          {/* Right: Content */}
+          <div className="flex flex-col gap-6 md:gap-8">
+            <div className="flex items-center gap-4 py-3">
+              <div className="bg-[#0A1E3F] w-1.5 h-1.5 rounded-full"></div>
+              <p className="text-[#00A89D] font-openSans text-xs md:text-sm font-normal leading-tight uppercase">
+                OUR MISSION
+              </p>
+              <div className="bg-[#0A1E3F] w-1.5 h-1.5 rounded-full"></div>
             </div>
-          ))}
-        </div>
-      </div>
-
-      {/* Commitment Section */}
-      <div className="w-full bg-white relative">
-        <div className="py-16 px-4 md:px-10 lg:px-20 max-w-7xl mx-auto flex flex-col gap-8">
-          <div className="flex items-center gap-4 w-fit">
-            <div className="w-1.5 h-1.5 bg-[#0A1E3F]"></div>
-            <p className="text-[#00A89D] font-openSans text-xs md:text-sm uppercase font-semibold">OUR COMMITMENT</p>
-            <div className="w-1.5 h-1.5 bg-[#0A1E3F]"></div>
-          </div>
-          <div className="flex flex-col md:flex-row justify-between items-start gap-8">
-            <h2 className="text-[#0A1E3F] font-montserrat text-2xl md:text-3xl font-normal max-w-2xl leading-tight">
-              Building Africa's Energy Future Together
+            <h2 className="text-[#0A1E3F] font-montserrat text-2xl md:text-3xl font-normal leading-tight tracking-tight">
+              Powering Africa's Energy Independence
             </h2>
-            <p className="text-[#0A1E3F] font-openSans text-base font-normal opacity-90 max-w-2xl text-justify md:text-left">
-              At ASEDO Energy Group, we are proud to be one of Africa's fastest-growing integrated energy companies.
+            <p className="text-[#4D5767] font-montserrat text-base font-normal leading-tight tracking-tight">
+              ASEDO Energy Group is a fully integrated energy company committed
+              to delivering reliable, sustainable, and innovative energy
+              solutions across Africa and beyond. From upstream exploration to
+              nationwide distribution, we control every stage of the value
+              chain—ensuring efficiency, quality, and long-term value creation.
             </p>
           </div>
         </div>
-        {/* Image Banner */}
-        <div className="w-full h-[300px] md:h-[400px] relative overflow-hidden">
-          <img
-            src="/images/about-us/Photovoltaicsplantteamreviewingsolarpanelsmanualproduction1.png"
-            className="w-full h-full object-cover"
-            alt="Solar Panel Review"
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-[rgba(0,168,157,0.30)] to-[rgba(10,30,63,0.30)]"></div>
-        </div>
-        {/* Values Grid */}
         <div className="w-full py-16 px-4 md:px-10 lg:px-20 max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             <div className="flex flex-col gap-6">
@@ -149,7 +130,7 @@ export default function AboutUs() {
       <div className="flex flex-col md:flex-row w-full bg-white">
         <div className="w-full md:w-1/3 min-h-[300px] md:min-h-auto relative">
           <img
-            src="/images/about-us/Frame139.png"
+            src="/about-us/team-photo.png"
             alt="Our History"
             className="w-full h-full object-cover"
           />
